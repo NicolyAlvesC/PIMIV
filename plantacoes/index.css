@@ -1,0 +1,35 @@
+.carrossel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.imagens {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.imagem {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.botao {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+.botao-esquerda {
+    left: 10px;
+}
+.botao-direita {
+    right: 10px;
+}
+
+img {
+    width: 2em;
+    height: auto;
+}
