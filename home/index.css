@@ -62,23 +62,22 @@
     color: white;
 
     display: flex;
-    
+    flex-direction: column;
+
+
     align-items: center;
     justify-content: center;
 }
 
-.f-titulo{
-    margin-top: 3em;
-}
 
-form {
+#orderForm {
     max-width: 80em;
     margin: auto;
     color: black;
     display: flex;
     flex-direction: column;
 }
-label {
+#cnpj, #email, #produ {
     display: block;
     margin: 5px 0 5px;
 }
@@ -108,8 +107,7 @@ button:hover {
     color: black;
     margin: 1em;
 }
-
-.forms-2 {
+.box-forms {
     display: flex;
     flex-direction: row;
 }

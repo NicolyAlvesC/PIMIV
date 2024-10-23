@@ -81,7 +81,36 @@
         </div>
     </div>
     <div class="footer">
-        
+
+        <div class="box-forms">
+            <div class="forms-1">
+                <div class="f-titulo">
+                    <h1>Contato</h1>
+                </div>
+                <form id="orderForm">
+                    <label id="cnpj" for="cnpj">CNPJ:</label>
+                    <input  type="text" id="cnpj" name="cnpj" required>
+            
+                    <label id="email" for="email">Endereço de Email:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="product">Escolha um produto:</label>
+                    <select id="product" name="product" required>
+                        <option value="verduras">VERDURAS</option>
+                        <option value="legumes">LEGUMES</option>
+                        <option value="frutas">FRUTAS</option>
+                        <option value="outros">OUTROS</option>
+                    </select>
+            
+                    <label for="description">Descrição do Pedido:</label>
+                    <textarea id="description" name="description" rows="4" required></textarea>
+            
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="linha"><hr/></div>
+            <div class="forms-2"></div>
+        </div>
 
         <div class="copyright">
             <p>Made with ❤️ by VOLK &copy; 2023</p>
